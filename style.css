@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 363px;
+    gap: 12px;
+}
+.button {
+    width: 281px;
+    height: 48px;
+    border: 1px solid rgba(66, 133, 244, 1);
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    background: url(google.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: left 2px center;
+    background-color: rgba(66, 133, 244, 1);
+    
+}
+.grey {
+    color: rgba(107, 114, 128, 1);
+}
+.facebook {
+    width: 48px;
+    height: 50px;
+    margin-left: 14px;
+    position: absolute;
+}
+.sign {
+    width: 340px;
+    height: 48px;
+    outline: none;
+    border: 1px solid rgba(229, 231, 235, 1);
+    background: url(at.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left 10px center;
+    padding-left: 50px;
+}
+#for {
+    padding-left: 10px;
+    color: rgba(107, 114, 128, 1);
+}
+
+.button1 {
+    width: 340px;
+    height: 48px;
+    outline: none;
+    color: white;
+    background-color: rgba(114, 77, 255, 1);
+    border: 1px solid rgba(114, 77, 255, 1);
+    border-radius: 6px;
+    
+}
+.link {
+    color: rgba(109, 88, 186, 1);
+}
+form {
+    display: inline-block;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 230px;
+}
+.box {
+    height: 832px;
+    display: flex;
+    height: 100vh;
+}
+.right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grey2 {
+    color: rgba(107, 114, 128, 1);
+}
+.acolor {
+    color: rgba(109, 88, 186, 1);
+}
+img {
+    width: 100%;
+    max-width: 469px;
+}
+@media screen and (max-width: 380px) {
+    form {
+        width: 100%;
+        height: 515px;
+        margin: 0px;
+        margin-top: 20px;
+        padding: 30px;
+
+    }
+    img {
+        display: none !important;
+    }
+    .button1 {
+        width: 121px;
+        height: 48px;
+        margin-left: 100px;
+        
+    }
+    @media screen and (max-width: 380px) {
+    .facebook {
+        background: url(facebook1.png) !important;
+    }
+}
+}
